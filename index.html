@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+    Subject: COMP-125
+    Project Name: Assignment 4 
+    Author: Peitong Liu 
+    ID: 300913117
+-->
+<html lang="en">
+	<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Apply Online</h1>
+        <p style="font-size: 20px;">
+			Ready to take the next step toward achieving your goals? Please fill out the application below and we will contact you about the next steps in your admission process.
+		</p>
+        <div class="form">
+            <table>
+                <tr>
+                    <td id="cellFN">
+                        <label for="inputFN" id="lblFN">First Name</label><br>
+                        <input type="text" id="inputFN" name="inputFN">                        
+                    </td>
+                    <td id="cellLN">
+                        <label for="inputLN" id="lblLN">Last Name</label><br>
+                        <input type="text" id="inputLN" name="inputLN">                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputGD" id="lblGD">Gender</label><br>
+                        <input type="text" id="inputGD" name="inputGD">
+                    </td>
+                    <td>
+                        <label for="inputAD" id="lblAD">Street Address</label><br>
+                        <input type="text" id="inputAD" name="inputAD">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputCT">Country</label><br>
+                        <input type="text" id="inputCT" name="inputCT">
+                    </td>
+                    <td>
+                        <label for="inputPC">Postal Code/Zip Code</label><br>
+                        <input type="text" id="inputPC" name="inputPC">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="cellPW1">
+                        <label for="inputPW1" id="lblPW1">Password</label><br>
+                        <input type="password" id="inputPW1" name="inputPW1">
+                        
+                    </td id="cellPW2">
+                    <td>
+                        <label for="inputPW2" id="lblPW2">Confirm Password</label><br>
+                        <input type="password" id="inputPW2" name="inputPW2">                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputCY">City</label><br>
+                        <input type="text" id="inputCY" name="inputCY">
+                    </td>
+                    <td>
+                        <label for="inputPV">Province</label><br>
+                        <input type="text" id="inputPV" name="inputPV">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="cellEM">
+                        <label for="inputEM" id="lblEM">E-mail</label><br>
+                        <input type="text" id="inputEM" name="inputEM">                        
+                    </td>
+                    <td>
+                        <label for="inputPN">Phone Number</label><br>
+                        <input type="text" id="inputPN" name="inputPN">                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="inputPS">Previous Educational Level</label><br>
+                        <input type="text" id="inputPS" name="inputPS">
+                    </td>
+                    <td>
+                        <label for="dropWorking">Are you currently Working?</label><br>
+                        <select id="workStat" name="workStat">
+                            <option selected>&#40;Select One&#41;</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dropCampus">Preferred Campus</label><br>
+                        <select id="prefCamp" name="prefCamp">
+                            <option selected>&#40;Select One&#41;</option>
+                            <option value="pro">Progress Campus</option>
+                            <option value="ash">Ashtonbee Campus</option>
+                            <option value="sac">Story Arts Centre</option>
+                            <option value="dsv">Downsview Campus</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="inputPP">Preferred Program&#40;<a href="https://www.centennialcollege.ca/programs-courses/full-time/?campus" target="_blank">All Programs</a>&#41;</label><br>
+                        <input type="text" id="inputPP" name="inputPP">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="where">Where did you heard from us?</label><br>
+                        <select id="where" name="where">
+                            <option selected>&#40;Select One&#41;</option>
+                            <option value="familyOrFriend">Family Or Friend</option>
+                            <option value="internet">Internet</option>
+                            <option value="schoolFair">School Fair</option>
+                            <option value="physADs">Physical Advertisements</option>
+                            <option value="npOrMag">Newspaper or magazine</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer>
+            
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

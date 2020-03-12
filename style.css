@@ -1,0 +1,28 @@
+/*
+    Subject: COMP-125
+    Project Name: Assignment 4 
+    Author: Peitong Liu 
+    ID: 300913117
+*/
+body{
+    width: 50%;
+    margin: auto;
+    font-family: "Times New Roman", Times, serif;
+}
+h1{
+    
+}
+table{
+    margin: auto;
+}
+input[type=text], input[type=password], select{
+    width: 300px;
+}
+a:visited{
+  color:blue;
+}
+p.errMsg{
+    display: none;
+    color: red;
+    text-align: center;
+}
